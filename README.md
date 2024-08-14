@@ -1,4 +1,4 @@
-# ERC20 Goerli to Mumbai Bridge Using fxPortal
+# ERC20 Sepolia to amoy Bridge Using fxPortal
 This project demonstrates how to use the fxPortal contracts to transfer ERC20 tokens from sepolia to amoy.
 
 ### Steps for Bridging
