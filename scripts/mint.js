@@ -6,10 +6,10 @@ require("dotenv").config();
 
 async function main() {
   // Get private key from env
-  const privateKey = "2160702757ea47f08d7cbc21be51b0e6be8953dc3c912d9ab441fa9eae001021";
+  const privateKey = "3f7537940d0d1c2e21b0d7bd5496404b5d2b1c244df79404dd4933734d339673";
 
   // The URL of the network provider
-  const networkAddress = "https://ethereum-goerli.publicnode.com";
+  const networkAddress = "https://ethereum-sepolia.blockpi.network/v1/rpc/public";
 
   // Create a provider using the URL
   const provider = new ethers.providers.JsonRpcProvider(networkAddress);
