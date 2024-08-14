@@ -18,7 +18,7 @@ async function main() {
   const signer = new ethers.Wallet(privateKey, provider);
 
   // Tthe address of the deployed contract
-  const contractAddress = "0x97E57A95bb925CDb4A654A454d7EF5ED819111eA";
+  const contractAddress = "0x66218A760232F474d55851235E094d9c3A686463";
 
   // Get the contract factory and attach it to the signer
   const NFT = await ethers.getContractFactory("MetaToken", signer);
