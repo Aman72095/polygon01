@@ -8,8 +8,7 @@ contract MetaToken is ERC721A {
     address public owner;
 
     // Base url for the nfts
-    string baseUrl =
-        "https://gateway.pinata.cloud/ipfs/QmYPzpno3febYhoxsrHGhCTQUntsUbfAA7nJLMEzAgEp67/";
+    string baseUrl =        "https://coral-fast-pony-316.mypinata.cloud/ipfs/QmQbZVqN5rQwjQA54MAi47gAPAG6sg7anKJpGdKcG6oFba/?pinataGatewayToken=4ptArCmumPVIjW4N7JA80C2CbPlEl93KvtiykxQQNjDioXxGmaqSFHAWfHCImgwH";
 
     //  for the prompt description
     string[] public description ;
