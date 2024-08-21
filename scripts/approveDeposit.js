@@ -2,7 +2,7 @@ const hre = require("hardhat");
 const tokenJSON = require("../artifacts/contracts/MetaToken.sol/MetaToken.json");
 require('dotenv').config();
 
-const tokenAddress = '0xEcC76D0F40Bad1aA34c8915060A511Bb019D87Ea';
+const tokenAddress = '0x97A169DB467A3a5ebcCd259197ed7DF374220102';
 const tokenABI = tokenJSON.abi;
 const walletAddress = "0xfBC179527EfcAFd701E433Aee6330be6743DEa93";
 
