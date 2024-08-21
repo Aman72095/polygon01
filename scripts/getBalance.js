@@ -7,9 +7,9 @@
 const hre = require("hardhat");
 const tokenContractJSON = require("../artifacts/contracts/MetaToken.sol/MetaToken.json");
 
-const tokenAddress = "0xEcC76D0F40Bad1aA34c8915060A511Bb019D87Ea"; // place your erc20 contract address here
+const tokenAddress = "0x97A169DB467A3a5ebcCd259197ed7DF374220102"; // place your erc20 contract address here
 const tokenABI = tokenContractJSON.abi;
-const walletAddress = "0xfBC179527EfcAFd701E433Aee6330be6743DEa93"; // place your public address for your wallet here
+const walletAddress = "0x578061E34166f4Dbb3B872107a8f2Cd1162b0554"; // place your public address for your wallet here
 
 async function main() {
 
